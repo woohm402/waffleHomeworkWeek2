@@ -1,0 +1,320 @@
+div{
+	width: 100%;
+	color: black;
+	margin: 0 auto;
+}
+ul, li{
+	list-style: none;
+	display: flex;
+    text-align : left;
+    padding:0px;
+    margin:0px;
+}
+i {
+	font-style:normal;
+	color:red;
+	display: block;
+	height: 13px;
+	margin-top : 5px;
+}
+
+section{
+	width: 935px;
+	color: black;
+	margin : 0 auto;
+	line-height: 27px;
+	text-align: center;
+}
+
+strong{
+	position: absolute;
+	left : 50%;
+	height : 38px;
+	top : 50%;
+	margin-top : -19px;
+	width : 100px;
+	margin-left : -50px;
+	text-align: center;
+	display: block;
+	font-weight: normal;
+	font-size : 11px;
+}
+
+h3, span {
+	margin-top : auto;
+	margin-bottom : auto;
+}
+
+a{
+	text-align: center;
+	line-height: 40px;
+	margin: 0 auto;
+}
+
+body {
+	margin : 0;
+}
+
+footer{
+	height : auto;
+	background-color: #EAEAEA;
+}
+.secGroup{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#Wfootb{
+	color:blue;
+}
+
+#subBar{
+	width : 935px;
+}
+.subBar_background{
+	width : 100%;
+	height : 40px;
+	background-color: #3355FF;
+}
+
+.container{
+	width: 935px;
+	color: black;
+	display: flex;
+	margin : 0 auto;
+	justify-content: space-between;
+	text-align : center;
+}
+.container.logo{
+	box-sizing: border-box;
+	width : 100%;
+	padding : 10px;
+}
+
+.sportName{
+	color: black;
+	font-size: 17pt;
+	flex-grow: 1;
+    flex-shrink:0;
+    flex-basis: auto;
+    overflow: hidden;
+    text-align : center;
+}
+
+.catName{
+	color: white;
+	font-size: 12pt;
+	flex-grow: 1;
+    flex-shrink:0;
+    flex-basis: auto;
+    overflow: hidden;
+    text-align : center;
+}
+
+.main{
+	background-color : #EAEAEA;
+	width : 100%;
+	color : black;
+	margin : 0 auto;
+	overflow : hidden;
+}
+
+.HLHead{
+	width : 100%;
+	text-align : left;
+	height : 20px;
+	padding-top : 4px;
+	padding-bottom: 7px;
+}
+
+.HLBody{
+	width: 100%;
+	height: 217px;
+	background-color: white;
+	padding : 0px;
+	display : flex;
+}
+.HL.image.main{
+	width : 50%;
+	padding : 0px;
+}
+.HLimg{
+	width : 100%;
+}
+.HL.title {
+	width : 25%;
+	background-color: white;
+	box-shadow: 0 0 0 1px #EAEAEA;
+	padding: 0px;
+}
+.HL.title.sub {
+	display : flex;
+	flex-wrap: wrap;
+}
+.HLMore{
+	width:100%;
+	height:20px;
+}
+.HLnews{
+	width : 209.75px;
+	height : 47.33px;
+	box-shadow: 0 0 0 1px #EAEAEA;
+	padding : 12.5px 12px 12.5px 12px;
+}
+.HLNtitle{
+	font-size: 17px;
+	font-weight: 350;
+	width : 180.63px;
+	height : 43px;
+	line-height: 1.4em;
+	margin : 0 auto;
+}
+.HLNtitle.item0{
+	font-size:22px;
+}
+.HLnews.item0{
+	width : 196.75px;
+	height : 183px;
+	padding : 17px 20px 17px 17px;
+}
+#matchBox{
+	background-color:white;
+}
+#matchBox + span {
+	margin-left : 12px;
+}
+
+.MB{
+	width : 100%;
+	padding : 0px;
+	margin : 0px;
+}
+
+.MB.Head{
+	height:38px;
+	width:911px;
+	font-size : 15px;
+	font-weight : normal;
+	padding-right:12px;
+	padding-left:12px;
+}
+.matchSmallFont {
+	padding-left : 12px;
+	font-size : 12px;
+	color : grey;
+}
+.MB.Body{
+	height : 76px;
+	display : flex;
+	flex-wrap : wrap;
+}
+.cast{
+	position: relative;
+	width : 50%;
+	height : 38px;
+	box-shadow: 0 0 0 1px #EAEAEA;
+	padding : 0px;
+	display : flex;
+}
+.castFont {
+	margin : 2px;
+	padding : 2px;
+}
+.team {
+	width: 50%;
+	height: 100%;
+	display : flex;
+}
+.team.lft{
+	padding-right : 16px;
+	flex-direction: row-reverse;
+}
+.team.rgt{
+	padding-left : 16px;
+	margin-right : auto;
+}
+.name, .emblem, .scoreCast {
+	margin-top : auto;
+	margin-bottom : auto;
+	margin-right : 5px;
+	margin-left : 5px;
+}
+.name{
+	font-size:13px;
+}
+.emblem{
+	width:29px;
+	height:29px;
+}
+.scoreCast{
+	width : 16px;
+}
+.liveSign {
+	position: absolute;
+	top : 50%;
+	left : 50%;
+	width : 100px;
+	height : 100px;
+	margin-left : -50px;
+	margin-top : -25px;
+}
+
+#mainVideo{
+	background-color:white;
+	margin-bottom: 10px;
+}
+.MV{
+	padding : 0;
+	margin : 0;
+}
+
+.MV.Head{
+	font-size : 17px;
+	font-weight : 600;
+	padding-left : 12px;
+	padding-right:12px;
+	margin : 0 auto;
+	height : 46px;
+}
+
+.MV.Body{
+	height : 190.42px;
+	display : flex;
+	flex-wrap: wrap;
+	padding-left: 5px;
+	padding-right : 5px;
+}
+
+.hotClip{
+	height : 190.42px;
+	width : 25%;
+	margin : 0px;
+	list-style : none;
+}
+.hotClip.img{
+	height : 132.42px;
+	width : 225px;
+}
+.hotClip.detail{
+	text-align : left;
+	margin : 0px;
+	padding : 2px;
+	list-style : none;
+}
+.hc_img_area {
+	width : 225px;
+	height : 132.42px;
+}
+.hc_text_area {
+	width : 215px;
+	padding : 9px 5px 0px 5px;
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+
+.MV.More{
+	text-align : center;
+	height : 43px;
+	border-top : 1px solid #EAEAEA;
+}

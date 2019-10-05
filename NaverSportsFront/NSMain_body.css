@@ -1,0 +1,49 @@
+ul, li{
+	list-style: none;
+	display: flex;
+	line-height: 40px;
+    text-align : center;
+}
+
+a{
+	display: block;
+	text-align: center;
+}
+
+section{
+	width: 70%;
+	color: black;
+	margin : 0 auto;
+	line-height: 27px;
+	text-align: center;
+}
+
+.main{
+	background-color: grey;
+	width: 100%;
+	color: black;
+	margin: 0 auto;
+}
+
+.HLHead{
+	width:100%;
+	text-align:left;
+}
+
+.HLBody{
+	width: 100%;
+	height: 180px;
+	background-color: white;
+}
+.HLMore{
+	width:100%;
+	height:20px;
+}
+
+#matchBox{
+	background-color:white;
+}
+
+#mainVideo{
+	background-color:white;
+}
