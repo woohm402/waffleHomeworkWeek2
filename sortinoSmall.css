@@ -1,0 +1,163 @@
+body{
+	margin : 0;
+}
+::-webkit-scrollbar {
+	width: 0px;
+}
+.menuButton {
+	position: absolute;
+	right:0px;
+	color: white;
+	font-size: 20px;
+	display: flex;
+	height: 60px;
+	width: 60px;
+}
+.header .menu{
+	padding:0px;
+}
+
+.menuButton:hover {
+	cursor: pointer;
+}
+
+.menuButton .fas {
+	line-height: 60px;
+}
+.show {
+	visibility: visible;
+}
+.hide {
+	visibility: hidden;
+}
+.scroll-show {
+	overflow-y: auto;
+}
+.scroll-hide {
+	overflow-y: hidden;
+}
+.header{
+	position: relative;
+	box-sizing: border-box;
+	background-color:#222227;
+	width:100%;
+	height:84px;
+	display: flex;
+	padding : 0 16px;
+}
+.main{
+	background-color:#222227;
+	width:100%;
+	height:2120px;
+	display : flex;
+	flex-wrap : wrap;
+}
+.logo{
+	position: absolute;
+	height : 71.66px;
+	top:50%;
+	margin-top : -35.84px;
+	padding : 16px;
+	box-sizing: border-box;
+	display: flex;
+}
+#imgLogo{
+	height:30px;
+	margin: auto;
+}
+
+.menubar {
+	border-top: 1px solid #2a2d31;
+	margin : 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 822px;
+    position: absolute;
+    top: 84px;
+    right: 0px;
+    color: #727a88;
+    background-color: #222227;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu{
+	background-color: #222227;
+	text-align: center;
+	width:100%;
+	line-height:70px;
+	color:grey;
+	letter-spacing: 2px;
+	margin : 0;
+}
+.menuBottomFill{
+	width:100%;
+	height:100%;
+}
+#imgLogo, .menu:hover {
+	cursor : pointer;
+	transition: color 0.3s;
+	color : white;
+}
+.menu.selected{
+	color:white;
+}
+
+.imgBox{
+	height:60px;
+	margin : auto 0;
+}
+.box{
+	text-align: center;
+	display : flex;
+	justify-content: center;
+	box-shadow: inset 0 0 0 1px #2C2C31;
+}
+.box.half{
+	width : 100%;
+}
+.box.quar{
+	width:50%;
+}
+.box:hover {
+	transition: background-color 0.5s;
+	cursor: pointer;
+}
+.box:hover img {
+	transition: 0.5s;
+	height: 72px;
+}
+
+#Box1:hover{
+	background-color: #00EE55;
+}
+#Box2:hover{
+	background-color: #448888;
+}
+#Box3:hover{
+	background-color: #823758;
+}
+#Box4:hover{
+	background-color: #AFFF11;
+}
+#Box5:hover{
+	background-color: #45FF55;
+}
+#Box6:hover{
+	background-color: #A040E0;
+}
+#Box7:hover{
+	background-color: #EEEEEE;
+}
+#Box8:hover{
+	background-color: #EEEE00;
+}
+#Box9:hover{
+	background-color: #EE00E0;
+}
+#Box10:hover{
+	background-color: #D0D20D;
+}
+#Box11:hover{
+	background-color: #11F345;
+}
